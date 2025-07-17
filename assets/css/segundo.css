@@ -1,0 +1,30 @@
+body {
+    background: url("../img/fondo-au5-05.png") center center no-repeat;
+    background-size: cover;
+    background-position: 30% 60%;
+}
+
+.row h2 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.row h1 {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+}
+
+.row .btn-primary {
+    background-color: #0d1f62;
+    border-color: #0c0f5f; /* cambia también el borde si querés */
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.row .btn-default {
+    background-color: white;
+    border-color: #150d49; /* cambia también el borde si querés */
+    font-family: "Open Sans";
+    font-size: 15px;
+}
