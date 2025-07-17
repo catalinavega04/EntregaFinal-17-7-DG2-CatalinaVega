@@ -594,6 +594,24 @@ h6 {
     width: fit-content; /* o max-content si querés que se ajuste al contenido */
   }
 
+  .footer-about,
+  .footer .footer-links,
+  .footer .footer-contact {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer .footer-top .row {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+
   .footer .footer-links ul {
     text-align: center;
     justify-content: center;
