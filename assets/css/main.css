@@ -454,6 +454,10 @@ h6 {
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .footer .footer-top {
@@ -607,6 +611,13 @@ h6 {
   justify-content: center;
   text-align: center;
   }
+
+  .footer-about,
+  .footer .footer-links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
   .footer .footer-about .logo span {
     text-align: center;
